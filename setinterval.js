@@ -1,8 +1,11 @@
-function showTime() {
+let count = 0;
+let interval = setInterval(function() {
+    count += 1;
+    if (count === 10) { //after 10 intervals time will stop
+        clearInterval(interval);
+    }
     let dateTime = new Date();
+    let time = dateTime.toLocaleTimeString(); //this will print time
+    console.log(time);
 
-    let time = dateTime.toLocaleTimeString();
-    console.log(time)
-}
-
-let display = setInterval(showTime, 2000);
+}, 2000);

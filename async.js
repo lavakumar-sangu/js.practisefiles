@@ -1,7 +1,5 @@
 let promise = new Promise(function(resolve, reject) {
-    setTimeout(function() {
-        resolve('Promise resolved')
-    }, 2000);
+    setTimeout(() => resolve('Promise resolved'), 2000);
 });
 async function asyncFunc() {
     let result = await promise;
@@ -11,3 +9,13 @@ async function asyncFunc() {
 }
 
 asyncFunc();
+
+
+// let promise = new Promise(function(resolve, reject) {
+//     setTimeout(() => reject(new Error("Whoops!")), 1000);
+// });
+
+// promise.then(
+//     result => console.log(result),
+//     error => console.log(error)
+// );

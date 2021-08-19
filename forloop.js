@@ -1,5 +1,5 @@
-const n = 5;
+const numbers = 5;
 
-for (let i = 1; i <= n; i++) {
-    console.log(i)
+for (let value = 1; value <= numbers; value++) {
+    console.log(value) //this print 1 to 5 values
 }

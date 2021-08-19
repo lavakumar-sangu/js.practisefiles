@@ -5,6 +5,6 @@ function reverseString(x) {
     }
     return y;
 }
-const z = prompt('enter a string: ');
+const z = "lavakumar";
 const result = reverseString(z);
 console.log(result);

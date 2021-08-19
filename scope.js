@@ -5,6 +5,3 @@ function wish() {
     console.log(a + b);
 }
 wish();
-
-// this will through error
-console.log(a + b);

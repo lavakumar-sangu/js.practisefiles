@@ -1,4 +1,4 @@
-let a = 2;
+let a = 3;
 
 switch (a) {
     case 1:
@@ -6,6 +6,12 @@ switch (a) {
         break;
     case 2:
         a = "two";
+        break
+    case 3:
+        a = "three";
+        break;
+    case 4:
+        a = "four";
         break;
     default:
         a = "not Found";

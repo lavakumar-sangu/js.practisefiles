@@ -1,8 +1,8 @@
-const x = 'Lava has a red car and grey bike';
-const y = x.replace('red', 'blue');
-console.log(y)
+const bikeColor = 'Lava has a red car and grey bike';
+const colorChanged = bikeColor.replace('red', 'blue');
+console.log(colorChanged)
 
-const i = 'Lava has a red car and red bike';
-const a = /red/g;
-const z = i.replace(a, 'blue');
-console.log(z)
+const bikeColors = 'Lava has a red car and red bike';
+const colorChange = /red/g;
+const bikeValue = bikeColors.replace(colorChange, 'blue');
+console.log(bikeValue)

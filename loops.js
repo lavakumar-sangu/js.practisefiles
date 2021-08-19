@@ -4,8 +4,8 @@ const student = {
     hobbies: ['reading', 'games', 'coding'],
 };
 
-for (let i in student) {
-    let k;
-    k = student[i];
-    console.log(i + " - " + k);
+for (let keys in student) {
+    let pairs;
+    pairs = student[keys];
+    console.log(keys + " - " + pairs);
 }

@@ -1,10 +1,12 @@
 function CountDown(number) {
-    console.log(number);
-
-    const newNumber = number - 1;
-
-    if (newNumber > 0) {
-        CountDown(newNumber);
+    if (number == 0) {
+        console.log("input is 0")
+    } else if (number > 1) {
+        number = number - 1;
+        console.log(number)
+        CountDown(number);
+    } else if (number < 0) {
+        console.log("NEGITIVE NUMBER")
     }
 }
-CountDown(5)
+CountDown(0)
