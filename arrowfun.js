@@ -1,12 +1,12 @@
 // normal function
-// let z = function(x, y) {
+// let mul = function(x, y) {
 //     return x * y;
 // }
 
 
 // arrow function
-let z = (x, y) => {
+let mul = (x, y) => {
     return (x * y);
 }
-var c = z(4, 5)
-console.log(c)
+var sol = mul(4, 5)
+console.log(sol)
