@@ -19,9 +19,10 @@
 // }
 
 
-let x = Number(1);
+let x = 0;
+console.log(typeof(x));
 try {
-    if (x == "") {
+    if (x === "") {
         console.log("empty");
     } else if (isNaN(x)) {
         console.log("not a number");
