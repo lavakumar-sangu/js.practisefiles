@@ -7,5 +7,5 @@ const student = {
 for (let keys in student) {
     let pairs;
     pairs = student[keys];
-    console.log(keys + " - " + pairs);
+    console.log(keys + " = " + pairs);
 }

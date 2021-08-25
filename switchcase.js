@@ -13,6 +13,9 @@ switch (a) {
     case 4:
         a = "four";
         break;
+    case 5:
+        a = "five";
+        break;
     default:
         a = "not Found";
         break;

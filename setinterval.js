@@ -1,7 +1,7 @@
 let count = 0;
 let interval = setInterval(function() {
     count += 1;
-    if (count === 10) { //after 10 intervals time will stop
+    if (count === 5) { //after 10 intervals time will stop
         clearInterval(interval);
     }
     let dateTime = new Date();

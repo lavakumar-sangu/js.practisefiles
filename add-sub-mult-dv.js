@@ -1,10 +1,11 @@
 var x = 5;
 var y = 10;
-var z = x + y;
-var a = x - y;
-var b = x / y;
-var c = x * y;
-console.log(z)
-console.log(a)
-console.log(b)
-console.log(c)
+var add = x + y;
+var sub = x - y;
+var div = x / y;
+var mul = x * y;
+
+console.log(add)
+console.log(sub)
+console.log(div)
+console.log(mul)
